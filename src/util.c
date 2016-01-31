@@ -501,6 +501,7 @@ void die(const char *fmt, ...) {
     va_start(args, fmt);
     vplog(LOG_LEVEL_ERR, fmt, args);
     va_end(args);
+    pclose(out_fd);
     exit(2);
 }
 
