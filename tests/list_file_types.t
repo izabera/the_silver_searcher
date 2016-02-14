@@ -108,6 +108,9 @@ Language types are output:
     --jsp
         .jsp  .jspx  .jhtm  .jhtml
   
+    --julia
+        .jl
+  
     --less
         .less
   
@@ -269,6 +272,9 @@ Language types are output:
   
     --vim
         .vim
+  
+    --wix
+        .wxi  .wxs
   
     --wsdl
         .wsdl
